@@ -1,0 +1,85 @@
+.footer {
+    z-index: -5;
+    left: 0;
+    bottom: -100;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center ;
+
+  }
+
+  
+/*------------------------------------------------------
+ Footer
+----------------------------------------------*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+footer {
+  width:100vw;
+  bottom:0px
+
+}
+footer div {
+  background-color:#4478e3;
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+}
+svg {
+  width:100%;
+
+}
+
+
+
+.wave {
+  animation: wave 25s linear;
+  animation-iteration-count:infinite;
+  fill: #4478e3;
+}
+.drop {
+  fill: transparent;
+  border-color:transparent ;
+}
+
+
+#wave2 {
+  animation-duration:25s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 24s;
+  opacity:.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(80%); 
+    opacity:.6; 
+  }
+  80% {
+    transform: translateY(80%); 
+    opacity:.6; 
+  }
+  90% { 
+    transform: translateY(10%) ; 
+    opacity:.6; 
+  }
+  100% { 
+    transform: translateY(0%) scale(1.5);  
+    stroke-width:0.2;
+    opacity:0; 
+  }
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
+
+
+
+
+
+  

@@ -1,0 +1,64 @@
+*
+{
+    font-family: sans-serif;
+  
+    
+}
+
+.items div 
+{
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.pager div
+{
+    float: center;
+    padding: 0px;
+    font-size: 16px;
+  
+}
+
+
+
+.pager div.disabled
+{ 
+    opacity: 0.3;
+    box-shadow: none;
+
+
+}
+
+Pager a {
+ color: #000000;
+text-decoration: none;
+ }
+
+.Pager hover {
+color: #AAFF00;
+text-decoration: none; } 
+
+.Pager { 
+    color: #885454;
+     text-decoration: none;
+      background-color: #FFF7E7;
+}
+
+button {
+   
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+
+

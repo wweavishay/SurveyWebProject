@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica ;;
+  
+}
+* {
+  box-sizing: border-box;
+  
+}
+
+
+
+/* Add padding to containers */
+.container {
+  padding: 15px;
+  background-color: #EBEFFF;
+  text-align: center;
+  padding-left:0px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(216, 208, 234);
+  text-align:left;
+
+}
+
+
+
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(197, 36, 167);
+  outline: none;
+
+
+}
+
+
+
+
+
+
+
+nav{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(216, 216, 237,0.6);
+  line-height: 50px;
+  text-transform: uppercase;
+	font-family: 'CoreCircus', sans-serif;
+  font-size:medium;
+  font-weight: 700;
+  text-shadow: 
+			-1px -1px 0 lightblue, 1px -1px 0 lightblue, -1px 1px 0 lightblue, 1px 1px 0 lightblue	;
+}
+
+
+nav ul{
+  float: left;
+
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color: rgba(13, 21, 255, 0.01);
+  color:black;
+  text-shadow:none;
+ 
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.active {
+  background-color: rgb(202, 188, 241);
+ font-size: 14px;
+}
+
+
+
+img {
+border-radius: 50%;
+}
+
+
+

@@ -1,0 +1,66 @@
+#progress {
+  position: relative;
+  margin-bottom: 40px; 
+  height: 8px;  
+}
+
+
+
+#progress-bar {
+  position: absolute;
+  background-image: linear-gradient(rgb(101, 142, 230), rgb(225, 14, 197));
+  height: 8px;
+  width: 0%;
+  top: 50%;
+  left: 0;
+
+}
+
+
+#progress-num {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#progress-num::before {
+  content: "";
+  background-color: lightgray;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  z-index: -1;
+}
+
+
+#progress-num .step {
+  border: 4px solid lightsalmon;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;    
+  position: relative;
+  border-color: lightseagreen;
+  z-index: 1;
+  margin:auto;
+
+
+}
+
+
+#progress-num .step.active {
+  border-color: grey;
+  background-image: linear-gradient(rgb(101, 142, 230), rgb(225, 14, 197));
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
